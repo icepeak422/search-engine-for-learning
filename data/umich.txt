@@ -1,0 +1,151 @@
+1:115
+ The course presents the concepts of calculus from four points of view: geometric (graphs), numeric (tables), symbolic (formulas), and verbal descriptions. Students will develop their reading, writing, and questioning skills, as well as their ability to work cooperatively. Topics include functions and graphs, derivatives and their applications to real-life problems in various fields, and an introduction to integration. The classroom atmosphere is interactive and cooperative. Both individual and team homework is assigned
+
+ 2:116
+ pre:1
+ The course presents the concepts of calculus from four points of view: geometric (graphs), numeric (tables), symbolic (formulas), and verbal descriptions. Students will develop their reading, writing and questioning skills, as well as their ability to work cooperatively. Topics include techniques of integration, applications of integration, Taylor series, an introduction to differential equations, and infinite series. The classroom atmosphere is interactive and cooperative. Both individual and team homework is assigned.
+
+ 3:147
+ pre:1
+ Topics covered include: various rates of simple and compound interest, present and accumulated values based on these; annuity functions and their application to amortization, sinking funds, and bond values; depreciation methods; introduction to life tables, life annuity, and life insurance values.
+
+ 4:156
+ pre:1
+ Riemann sums, definite integral, fundamental theorem of calculus, applications of integral calculus (e.g. arclength, surface area, work, center of mass, probability density functions), improper integrals, infinite sequences and series, geometric series, alternating series, power series, Taylor series, differential equations, complex numbers. Students are introduced to MAPLE.
+
+ 5:214
+ pre:2
+ pre:1
+ pre:4
+An introduction to the main concepts of linear algebra… matrix operations, echelon form, solution of systems of linear equations, Euclidean vector spaces, linear combinations, independence and spans of sets of vectors in Euclidean space, eigenvectors and eigenvalues, similarity theory. There are applications to discrete Markov processes, linear programming, and solutions of linear differential equations with constant coefficients. 
+
+ 6:215
+ pre:2
+ pre:1
+ pre:4
+Topics include vector algebra and vector functions; analytic geometry of planes, surfaces, and solids; functions of several variables and partial differentiation; line, surface, and volume integrals and applications; vector fields and integration; Green’s Theorem, Stokes’ Theorem, and Gauss' Theorem. There is a weekly computer lab.
+
+
+7:217
+pre:6
+pre:2
+pre:1
+pre:4
+The topics covered include: systems of linear equations; matrix algebra; vectors, vector spaces, and subspaces; geometry of Rn; linear dependence, bases, and dimension; linear transformations; Eigenvalues and Eigenvectors; diagonalization; inner products. Throughout there will be an emphasis on the concepts, logic, and methods of theoretical mathematics.
+
+8:285
+pre:4
+pre:1
+Topics include vector algebra and vector functions; analytic geometry of planes, surfaces, and solids; functions of several variables and partial differentiation, maximum-minimum problems; line, surface, and volume integrals and applications; vector fields and integration; curl, divergence, and gradient; Green’s Theorem and Stokes’ Theorem. Additional topics may be added at the discretion of the instructor.
+
+9:286
+pre:8
+pre:4
+pre:1
+Topics include first-order differential equations, higher-order linear differential equations with constant coeffi cients, an introduction to linear algebra, linear systems, the Laplace Transform, series solutions, and other numerical methods (Euler, Runge-Kutta). If time permits, Picard’s Theorem will be proved.
+
+10:295
+Axioms of the real numbers, completeness and connectedness in the real line.  Functions of a real variable, limits and continuity, uniform continuity, extreme and intermediate value theorems, differentiation, integration, the fundamental theorem of calculus, Taylor's theorem with remainder.
+
+11:296
+pre:10
+Sequences and series of functions, power series, uniform convergence, real analytic functions. Vector spaces, bases, linear transformations, dual spaces, determinants, traces, eigenvalues, inner-product spaces, spectral theory.  Limits and continuity in Euclidean space, derivative as a linear map, Chain Rule, inverse/implicit function theorems.
+
+12:395
+pre:10
+pre:11
+nverse/implicit function theorems, immersion/submersion theorems.  Quotient and dual spaces, inner product spaces, spectral theory.  Metric spaces, basic point-set topology. Integration in Euclidean space, Fubini's theorem, change of variables formula. Topics in linear algebra: tensor products, exterior and symmetric powers, Jordan and rational canonical forms.
+
+13:396
+pre:10
+pre:11
+pre:12
+Submanifolds (with or without corners) of Euclidean space, abstract manifolds, tangent and cotangent spaces, immersion/submersion theorems. Partitions of unity, vector fields and differential forms on manifolds, exterior differentiation, integration of differential forms.  Stokes' theorem.  deRham cohomology, Riemannian metrics, Hodge star operator and the standard vector calculus versions of Stokes' theorem.
+
+14:310
+pre:1
+The course is a hands-on introduction to various topics in probability. These include basic profitability and combinatorics, conditional probability, expectations, random walks, Poisson distributions and Markov chains. The fundamental, ancient, and deep concepts underlying these  are randomness, fairness, coincidence, and bias. These are all important both in theoretical probability, statistics and real world applications, and the course pursues these ideas from conceptual and applied points of view.
+
+15 312:
+pre:7
+pre:6
+pre:2
+pre:1
+Sets and functions, relations and graphs, rings, Boolean algebras, semi- groups, groups, and lattices. Applications from areas such as switching, automata, and coding theory, and may include finite and minimal state machines, algebraic decompositions of logic circuits, semigroup machines, binary codes, and series and parallel decomposition of machines.
+
+16 316
+pre:8
+pre:2
+pre:1
+pre:4
+pre:7
+pre:6
+First-order equations: solutions, existence and uniqueness, and numerical techniques; linear systems: eigenvector-eigenvalue solutions of constant coefficient systems, fundamental matrix solutions, nonhomogeneous systems; higher-order equations, reduction of order, variation of parameters, series solutions; qualitative behavior of systems, equilibrium points, stability. Applications to physical problems are considered throughout.
+
+17 351
+pre:2
+pre:1
+pre:4
+pre:6
+pre:7
+Analysis of the real line, rational and irrational numbers, infinity limits, convergence, infinite sequences and series, continuous functions, power series, and differentiation.
+
+18: 354
+pre:8
+pre:2
+pre:1
+pre:4
+pre:7
+pre:6
+pre:16
+This is an introduction to Fourier Analysis geared towards advanced undergraduate students from both pure and applied areas. It should be particularly suitable for majors in the sciences and engineering. Topics will include properties of complex numbers, the Discrete Fourier Transform, Fourier series, the Dirichlet and Fejer kernals, convolutions, approximations by trigonometric polynomials, uniqueness of Fourier coefficients, Parseval's identity, properties of trigonometric polynomials, absolutely convergent Fourier series, convergence of Fourier series, applications of Fourier series, and the Fourier transform, including the Poisson summation formula and Plancherel's identity. While the main effort will be to establish the foundations of the subject, applications will include the Fast Fourier Transform, the heat equation, the wave equation, sampling, and signal processing.
+
+19:371
+pre:8
+pre:2
+pre:1
+pre:4
+pre:7
+pre:6
+pre:16
+Floating point arithmetic, Gaussian elimination, polynomial interpolation, spline approximations, numerical integration and differentiation, solutions to non-linear equations, ordinary differential equations, polynomial approximations.  Other topics may include discrete Fourier transforms, two-point boundary-value problems, and Monte-Carlo methods.
+
+20: 404
+pre:8
+pre:2
+pre:1
+pre:4
+pre:7
+pre:6
+pre:16
+Geometric representation of solutions, autonomous systems, flows and evolution, linear systems and phase portraits, nonlinear systems, local and global behavior, linearization, stability, conservation laws, periodic orbits. Applications: free and forced oscillations, resonance, relaxation oscillations, competing species, Zeeman’s models of heartbeat and nerve impulse, chaotic orbits, strange attractors.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,109 @@
+{% extends "base.html" %}
+{% block content %}
+
+    <h1>Search Engine for Learning</h1>
+    <br>
+    <!-- Search interface -->
+    <form action="" enctype=multipart/form-data >
+        <div class = "form-group">
+            <label class = "control-label">Search Query: </label>
+            <input id = "wikipedia_search_input" type="text" name="q">
+        </div>
+        <br>
+        <div class = "form-group text-center">
+            <input type = "submit" value="Search" class = "btn btn-success" id = "wikipedia_search_button">
+        </div>
+    </form>
+
+    <!-- Search results -->
+    {% if search %}
+        {% if docs|length == 0 %}
+            <p class = "no_search_results"> No search results </p>
+        {% else %}
+            <h2>Google baseline search results:</h2>
+            <div>
+            {% for doc in docs %}
+                <div class="doc"><a href={{doc}}>{{ doc }}</a></div>
+            {% endfor %}
+            </div>
+            <form action="/" method="POST" class="Recommend_form">
+                <div id="Recommend_id" class = "form-group text-center">
+                    <input type = "submit" value="Recommend" class = "btn btn-success" id = "Recommend_button">
+                </div>
+            </form>
+        {% endif %}
+    {% endif %}
+
+<!--     {% if recommend %}
+            {% if docs|length == 0 %}
+                <p class = "no_search_results"> No search results </p>
+            {% else %}
+                <h2>Google baseline search results:</h2>
+                <div>
+                {% for doc in docs %}
+                    <div class="doc"><a href={{doc}}>{{ doc }}</a></div>
+                {% endfor %}
+                </div>
+                <form action="/" method="POST" class="Recommend_form">
+                    <div id="Recommend_id" class = "form-group text-center">
+                        <input type = "submit" value="Recommend" class = "btn btn-success" id = "Recommend_button">
+                    </div>
+                </form>
+                {% for ret in results %}
+                    <div class="doc"><a href={{ret}}>{{ ret }}</a></div>
+                {% endfor %}
+            {% endif %}
+    {% endif %} -->
+ 
+<div class="Recommend_result"></div>
+
+<script type="text/javascript">
+    $('.Recommend_form').on('submit', function(e) {
+        e.preventDefault();
+        var data = []
+        var judge = 1
+        $('.doc').each(function() {
+            data.push($(this).find('a').html());
+        });
+        $.ajax({
+            type: "POST",
+            url: '/',
+            dataType: 'json',
+            contentType: 'application/json;charset=UTF-8',
+            data: JSON.stringify({docs: data}),
+            success: function(data) {
+                // console.log(data.reason_results);
+                for (var i = 0; i < 5; i++) {
+                    $('.Recommend_result').append(' <div> <a href='+ data.results[i] +'>'+ data.results[i] +'</a></div> <div>'+ data.reason_results[i] +'</div>');
+                }
+                loop1:
+                    for (var i=0; i<5;i++){
+                        loop2:
+                            for (var p=0; p<data.reason_results[i].length;p++){
+                                $('.Recommend_result').append(' <div> Are you familiar with the concept of '+data.reason_results[i][p]+'?</div> ');
+                                $('.Recommend_result').append('<button id="yes()">Yes</button> <button onclick="no()">No</button>');
+                                if(judge ==1){
+                                    continue;
+                                }if(judge ==0){
+                                    $('.Recommend_result').append('<div> stop</div>');
+                                    break loop1;
+                                }
+                            }   
+                    }
+                
+            }
+        })
+        function no() {
+            judge =0;
+        }
+        function yes() {
+            judge =1;
+        }
+    });
+
+    
+</script> 
+
+
+
+{% endblock %}

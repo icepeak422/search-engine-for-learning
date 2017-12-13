@@ -1,0 +1,426 @@
+{
+ "kind": "customsearch#search",
+ "url": {
+  "type": "application/json",
+  "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+ },
+ "queries": {
+  "request": [
+   {
+    "title": "Google Custom Search - eigenvalues",
+    "totalResults": "1440000",
+    "searchTerms": "eigenvalues",
+    "count": 10,
+    "startIndex": 11,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "007865715089351041060:znf9injp6vi"
+   }
+  ],
+  "previousPage": [
+   {
+    "title": "Google Custom Search - eigenvalues",
+    "totalResults": "1440000",
+    "searchTerms": "eigenvalues",
+    "count": 10,
+    "startIndex": 1,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "007865715089351041060:znf9injp6vi"
+   }
+  ],
+  "nextPage": [
+   {
+    "title": "Google Custom Search - eigenvalues",
+    "totalResults": "1440000",
+    "searchTerms": "eigenvalues",
+    "count": 10,
+    "startIndex": 21,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "007865715089351041060:znf9injp6vi"
+   }
+  ]
+ },
+ "context": {
+  "title": "MySearcher"
+ },
+ "searchInformation": {
+  "searchTime": 0.366859,
+  "formattedSearchTime": "0.37",
+  "totalResults": "1440000",
+  "formattedTotalResults": "1,440,000"
+ },
+ "items": [
+  {
+   "kind": "customsearch#result",
+   "title": "Eigenvectors and Eigenvalues | Udacity",
+   "htmlTitle": "Eigenvectors and \u003cb\u003eEigenvalues\u003c/b\u003e | Udacity",
+   "link": "https://www.udacity.com/course/eigenvectors-and-eigenvalues--ud104",
+   "displayLink": "www.udacity.com",
+   "snippet": "Learn how to calculate eigenvalues and eigenvectors and why they are important \nfor AI applications.",
+   "htmlSnippet": "Learn how to calculate \u003cb\u003eeigenvalues\u003c/b\u003e and eigenvectors and why they are important \u003cbr\u003e\nfor AI applications.",
+   "cacheId": "ubEcO_4oaE8J",
+   "formattedUrl": "https://www.udacity.com/.../eigenvectors-and-eigenvalues--ud104",
+   "htmlFormattedUrl": "https://www.udacity.com/.../eigenvectors-and-\u003cb\u003eeigenvalues\u003c/b\u003e--ud104",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "302",
+      "height": "167",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStoblufnMPkwM004eJd8hv23Yl_6GZvtvN_h0rwmZrIBxls9o7k-K0L_k"
+     }
+    ],
+    "metatags": [
+     {
+      "csrf-param": "authenticity_token",
+      "csrf-token": "BH3wkIZdUSR9iawrFY47IxUMNH1r9ZoRQOmH+diyzJP0YM5ZMm9jqNC8dZZ2TTCfmDOB09mNq/d9FgqsgPVbLg==",
+      "application-name": "Udacity",
+      "msapplication-tilecolor": "#FFFFFF",
+      "msapplication-tileimage": "https://d125fmws0bore1.cloudfront.net/assets/udacity_share-317a7f82552763598a5c91e1550b7cd83663ce02d6d475d703e25a873cd3b574.png",
+      "msvalidate.01": "4ADB80ADF9A5138C8BE3B23EE428B306",
+      "theme-color": "#294860",
+      "viewport": "width=device-width, initial-scale=1",
+      "og:description": "Learn how to calculate eigenvalues and eigenvectors and why they are important for AI applications.",
+      "og:image:height": "630",
+      "og:image:width": "1200",
+      "og:image": "https://s3-us-west-1.amazonaws.com/udacity-content/course/ud104-screenshot.jpg",
+      "og:title": "Eigenvectors and Eigenvalues | Udacity",
+      "og:type": "website",
+      "og:url": "/course/eigenvectors-and-eigenvalues--ud104",
+      "twitter:description": "Learn how to calculate eigenvalues and eigenvectors and why they are important for AI applications.",
+      "twitter:image:src": "https://s3-us-west-1.amazonaws.com/udacity-content/course/ud104-screenshot.jpg",
+      "twitter:title": "Eigenvectors and Eigenvalues | Udacity",
+      "twitter:card": "summary_large_image",
+      "twitter:site": "@udacity",
+      "twitter:creator": "@udacity"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://s3-us-west-1.amazonaws.com/udacity-content/course/ud104-screenshot.jpg"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Bai , Silverstein : No eigenvalues outside the support of the limiting ...",
+   "htmlTitle": "Bai , Silverstein : No \u003cb\u003eeigenvalues\u003c/b\u003e outside the support of the limiting ...",
+   "link": "https://projecteuclid.org/euclid.aop/1022855421",
+   "displayLink": "projecteuclid.org",
+   "snippet": "... a proper probability distribution, then the empirical distribution of the \neigenvalues of B n converges a.s. to a nonrandom limit. In this paper we prove \nthat, under certain conditions on the eigenvalues of T n , for any closed interval \noutside the support of the limit, with probability 1 there will be no eigenvalues in \nthis interval for...",
+   "htmlSnippet": "... a proper probability distribution, then the empirical distribution of the \u003cbr\u003e\n\u003cb\u003eeigenvalues\u003c/b\u003e of B n converges a.s. to a nonrandom limit. In this paper we prove \u003cbr\u003e\nthat, under certain conditions on the \u003cb\u003eeigenvalues\u003c/b\u003e of T n , for any closed interval \u003cbr\u003e\noutside the support of the limit, with probability 1 there will be no \u003cb\u003eeigenvalues\u003c/b\u003e in \u003cbr\u003e\nthis interval for&nbsp;...",
+   "formattedUrl": "https://projecteuclid.org/euclid.aop/1022855421",
+   "htmlFormattedUrl": "https://projecteuclid.org/euclid.aop/1022855421",
+   "pagemap": {
+    "metatags": [
+     {
+      "author": "Cornell University Library",
+      "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
+      "citation_journal_title": "The Annals of Probability",
+      "citation_publisher": "Institute of Mathematical Statistics",
+      "citation_author": "Z. D. Bai",
+      "citation_title": "No eigenvalues outside the support of the limiting spectral distribution of large-dimensional sample covariance matrices",
+      "citation_date": "1998-01",
+      "citation_year": "1998",
+      "citation_volume": "26",
+      "citation_issue": "1",
+      "citation_firstpage": "316",
+      "citation_lastpage": "345",
+      "citation_issn": "0091-1798",
+      "citation_doi": "10.1214/aop/1022855421",
+      "citation_keywords": "Random matrix; empirical distribution function of eigenvalues; Stieltjes transform",
+      "citation_pdf_url": "https://projecteuclid.org/download/pdf_1/euclid.aop/1022855421",
+      "citation_abstract_html_url": "https://projecteuclid.org/euclid.aop/1022855421"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Computation of Eigenvalues",
+   "htmlTitle": "Computation of \u003cb\u003eEigenvalues\u003c/b\u003e",
+   "link": "http://www.sosmath.com/matrix/eigen1/eigen1.html",
+   "displayLink": "www.sosmath.com",
+   "snippet": "This is a linear system for which the matrix coefficient is $A - \\lambda I_n$ . We \nalso know that this system has one solution if and only if the matrix coefficient is \ninvertible, i.e. $det\\Big(A - \\lambda I_n \\Big) \\neq 0 . Since the zero-vector is a \nsolution and C is not the zero vector, then we must have. \\begin{displaymath}det\\\nBig(A...",
+   "htmlSnippet": "This is a linear system for which the matrix coefficient is $A - \\lambda I_n$ . We \u003cbr\u003e\nalso know that this system has one solution if and only if the matrix coefficient is \u003cbr\u003e\ninvertible, i.e. $det\\Big(A - \\lambda I_n \\Big) \\neq 0 . Since the zero-vector is a \u003cbr\u003e\nsolution and C is not the zero vector, then we must have. \\begin{displaymath}det\\\u003cbr\u003e\nBig(A&nbsp;...",
+   "cacheId": "QOimvLiGSJwJ",
+   "formattedUrl": "www.sosmath.com/matrix/eigen1/eigen1.html",
+   "htmlFormattedUrl": "www.sosmath.com/matrix/eigen1/eigen1.html",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "152",
+      "height": "55",
+      "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRPuaPfLLDRRjAdG0M3EjChGGtVdWxz10mFOZol57sId6_XjfxPOFspdA"
+     }
+    ],
+    "metatags": [
+     {
+      "resource-type": "document",
+      "distribution": "global"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "http://www.sosmath.com/matrix/eigen1/img7.gif"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Eigenvalues of a real supersymmetric tensor",
+   "htmlTitle": "\u003cb\u003eEigenvalues\u003c/b\u003e of a real supersymmetric tensor",
+   "link": "https://www.sciencedirect.com/science/article/pii/S0747717105000817/pdf?md5=32663e4b37a2885b9325ae94d01263df&pid=1-s2.0-S0747717105000817-main.pdf&_valck=1",
+   "displayLink": "www.sciencedirect.com",
+   "snippet": "Journal of Symbolic Computation 40 (2005) 13021324 www.elsevier.com/locate\n/jsc. Eigenvalues of a real supersymmetric tensor. Liqun Qi. . Department of \nApplied Mathematics, The Hong Kong Polytechnic University, Kowloon, Hong \nKong. Received 23 July 2004; accepted 26 May 2005. Available online 17 June \n2005.",
+   "htmlSnippet": "Journal of Symbolic Computation 40 (2005) 13021324 www.elsevier.com/locate\u003cbr\u003e\n/jsc. \u003cb\u003eEigenvalues\u003c/b\u003e of a real supersymmetric tensor. Liqun Qi. . Department of \u003cbr\u003e\nApplied Mathematics, The Hong Kong Polytechnic University, Kowloon, Hong \u003cbr\u003e\nKong. Received 23 July 2004; accepted 26 May 2005. Available online 17 June \u003cbr\u003e\n2005.",
+   "mime": "application/pdf",
+   "fileFormat": "PDF/Adobe Acrobat",
+   "formattedUrl": "https://www.sciencedirect.com/science/article/pii/.../pdf?md5...1...",
+   "htmlFormattedUrl": "https://www.sciencedirect.com/science/article/pii/.../pdf?md5...1...",
+   "pagemap": {
+    "metatags": [
+     {
+      "creationdate": "D:20051019094510+05'30'",
+      "moddate": "D:20051019101206+05'30'",
+      "creator": "Elsevier",
+      "title": "doi:10.1016/j.jsc.2005.05.007",
+      "producer": "dvips + Distiller"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "McKean, Jr. , Singer : Curvature and the eigenvalues of the Laplacian",
+   "htmlTitle": "McKean, Jr. , Singer : Curvature and the \u003cb\u003eeigenvalues\u003c/b\u003e of the Laplacian",
+   "link": "https://projecteuclid.org/euclid.jdg/1214427880",
+   "displayLink": "projecteuclid.org",
+   "snippet": "Citation. McKean, Jr., H. P.; Singer, I. M. Curvature and the eigenvalues of the \nLaplacian. J. Differential Geom. 1 (1967), no. 1-2, 43--69. doi:10.4310/jdg/\n1214427880. https://projecteuclid.org/euclid.jdg/1214427880...",
+   "htmlSnippet": "Citation. McKean, Jr., H. P.; Singer, I. M. Curvature and the \u003cb\u003eeigenvalues\u003c/b\u003e of the \u003cbr\u003e\nLaplacian. J. Differential Geom. 1 (1967), no. 1-2, 43--69. doi:10.4310/jdg/\u003cbr\u003e\n1214427880. https://projecteuclid.org/euclid.jdg/1214427880&nbsp;...",
+   "formattedUrl": "https://projecteuclid.org/euclid.jdg/1214427880",
+   "htmlFormattedUrl": "https://projecteuclid.org/euclid.jdg/1214427880",
+   "pagemap": {
+    "metatags": [
+     {
+      "author": "Cornell University Library",
+      "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
+      "citation_journal_title": "Journal of Differential Geometry",
+      "citation_publisher": "Lehigh University",
+      "citation_author": "H. P. McKean, Jr.",
+      "citation_title": "Curvature and the eigenvalues of the Laplacian",
+      "citation_date": "1967",
+      "citation_year": "1967",
+      "citation_volume": "1",
+      "citation_issue": "1-2",
+      "citation_firstpage": "43",
+      "citation_lastpage": "69",
+      "citation_issn": "0022-040X",
+      "citation_language": "EN",
+      "citation_doi": "10.4310/jdg/1214427880",
+      "citation_pdf_url": "https://projecteuclid.org/download/pdf_1/euclid.jdg/1214427880",
+      "citation_abstract_html_url": "https://projecteuclid.org/euclid.jdg/1214427880"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Adjusting multiple testing in multilocus analyses using the ...",
+   "htmlTitle": "Adjusting multiple testing in multilocus analyses using the ...",
+   "link": "https://www.ncbi.nlm.nih.gov/pubmed/16077740",
+   "displayLink": "www.ncbi.nlm.nih.gov",
+   "snippet": "Heredity (Edinb). 2005 Sep;95(3):221-7. Adjusting multiple testing in multilocus \nanalyses using the eigenvalues of a correlation matrix. Li J(1), Ji L. Author \ninformation: (1)The Ministry of Education (MOE) Key Laboratory of Bioinformatics, \nDepartment of Automation, Tsinghua University, Beijing, People's Republic of \nChina.",
+   "htmlSnippet": "Heredity (Edinb). 2005 Sep;95(3):221-7. Adjusting multiple testing in multilocus \u003cbr\u003e\nanalyses using the \u003cb\u003eeigenvalues\u003c/b\u003e of a correlation matrix. Li J(1), Ji L. Author \u003cbr\u003e\ninformation: (1)The Ministry of Education (MOE) Key Laboratory of Bioinformatics, \u003cbr\u003e\nDepartment of Automation, Tsinghua University, Beijing, People&#39;s Republic of \u003cbr\u003e\nChina.",
+   "formattedUrl": "https://www.ncbi.nlm.nih.gov/pubmed/16077740",
+   "htmlFormattedUrl": "https://www.ncbi.nlm.nih.gov/pubmed/16077740",
+   "pagemap": {
+    "metatags": [
+     {
+      "citation_title": "Adjusting multiple testing in multilocus analyses using the eigenvalues of a correlation matrix.",
+      "citation_authors": "Li J; Ji L",
+      "citation_date": "9/2005",
+      "citation_publisher": "Heredity (Edinb)",
+      "citation_journal_title": "Heredity",
+      "citation_pmid": "16077740",
+      "citation_abstract_html_url": "https://www.ncbi.nlm.nih.gov/pubmed/16077740",
+      "citation_volume": "95",
+      "citation_issue": "3",
+      "citation_firstpage": "221",
+      "citation_doi": "10.1038/sj.hdy.6800717",
+      "citation_issn": "0018-067X"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Johansson : On fluctuations of eigenvalues of random Hermitian ...",
+   "htmlTitle": "Johansson : On fluctuations of \u003cb\u003eeigenvalues\u003c/b\u003e of random Hermitian ...",
+   "link": "https://projecteuclid.org/euclid.dmj/1077231893",
+   "displayLink": "projecteuclid.org",
+   "snippet": "Citation. Johansson, Kurt. On fluctuations of eigenvalues of random Hermitian \nmatrices. Duke Math. J. 91 (1998), no. 1, 151--204. doi:10.1215/S0012-7094-98-\n09108-6. https://projecteuclid.org/euclid.dmj/1077231893...",
+   "htmlSnippet": "Citation. Johansson, Kurt. On fluctuations of \u003cb\u003eeigenvalues\u003c/b\u003e of random Hermitian \u003cbr\u003e\nmatrices. Duke Math. J. 91 (1998), no. 1, 151--204. doi:10.1215/S0012-7094-98-\u003cbr\u003e\n09108-6. https://projecteuclid.org/euclid.dmj/1077231893&nbsp;...",
+   "formattedUrl": "https://projecteuclid.org/euclid.dmj/1077231893",
+   "htmlFormattedUrl": "https://projecteuclid.org/euclid.dmj/1077231893",
+   "pagemap": {
+    "metatags": [
+     {
+      "author": "Cornell University Library",
+      "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
+      "citation_journal_title": "Duke Mathematical Journal",
+      "citation_publisher": "Duke University Press",
+      "citation_author": "Kurt Johansson",
+      "citation_title": "On fluctuations of eigenvalues of random Hermitian matrices",
+      "citation_date": "19980115",
+      "citation_year": "1998",
+      "citation_volume": "91",
+      "citation_issue": "1",
+      "citation_firstpage": "151",
+      "citation_lastpage": "204",
+      "citation_issn": "0012-7094",
+      "citation_doi": "10.1215/S0012-7094-98-09108-6",
+      "citation_pdf_url": "https://projecteuclid.org/download/pdf_1/euclid.dmj/1077231893",
+      "citation_abstract_html_url": "https://projecteuclid.org/euclid.dmj/1077231893"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Eigenvalues and Eigenvectors",
+   "htmlTitle": "\u003cb\u003eEigenvalues\u003c/b\u003e and Eigenvectors",
+   "link": "http://lpsa.swarthmore.edu/MtrxVibe/EigMat/MatrixEigen.html",
+   "displayLink": "lpsa.swarthmore.edu",
+   "snippet": "This page is a brief introduction to eigenvalue/eigenvector problems (don't worry \nif you haven't heard of the latter). Before reading this you should feel comfortable \nwith basic matrix operations. If you are confident in your ability with this material, \nfeel free to skip it. Note that there is no description of how the operations are...",
+   "htmlSnippet": "This page is a brief introduction to \u003cb\u003eeigenvalue\u003c/b\u003e/eigenvector problems (don&#39;t worry \u003cbr\u003e\nif you haven&#39;t heard of the latter). Before reading this you should feel comfortable \u003cbr\u003e\nwith basic matrix operations. If you are confident in your ability with this material, \u003cbr\u003e\nfeel free to skip it. Note that there is no description of how the operations are&nbsp;...",
+   "cacheId": "u6aKY5eUZ1wJ",
+   "formattedUrl": "lpsa.swarthmore.edu/MtrxVibe/EigMat/MatrixEigen.html",
+   "htmlFormattedUrl": "lpsa.swarthmore.edu/MtrxVibe/EigMat/MatrixEigen.html",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "304",
+      "height": "158",
+      "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRQmm0vstVLFTU0lUoCPB-B5vz6STtqYpg1A5kkVs-Vwy63-FExVs5iv9k"
+     }
+    ],
+    "metatags": [
+     {
+      "author": "Erik Cheever, Swarthmore College"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "http://lpsa.swarthmore.edu/MtrxVibe/EigMat/images/Matrix22.gif"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Eigenvectors and Eigenvalues explained visually",
+   "htmlTitle": "Eigenvectors and \u003cb\u003eEigenvalues\u003c/b\u003e explained visually",
+   "link": "http://setosa.io/ev/eigenvectors-and-eigenvalues/",
+   "displayLink": "setosa.io",
+   "snippet": "Eigenvalues/vectors are instrumental to understanding electrical circuits, \nmechanical systems, ecology and even Google's PageRank algorithm. Let's see \nif visualization can make these ideas more intuitive. To begin, let v be a vector (\nshown as a point) and A be a matrix with columns a 1 and a 2 (shown as arrows).",
+   "htmlSnippet": "\u003cb\u003eEigenvalues\u003c/b\u003e/vectors are instrumental to understanding electrical circuits, \u003cbr\u003e\nmechanical systems, ecology and even Google&#39;s PageRank algorithm. Let&#39;s see \u003cbr\u003e\nif visualization can make these ideas more intuitive. To begin, let v be a vector (\u003cbr\u003e\nshown as a point) and A be a matrix with columns a 1 and a 2 (shown as arrows).",
+   "cacheId": "oE_fMKNNYVoJ",
+   "formattedUrl": "setosa.io/ev/eigenvectors-and-eigenvalues/",
+   "htmlFormattedUrl": "setosa.io/ev/eigenvectors-and-\u003cb\u003eeigenvalues\u003c/b\u003e/",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "311",
+      "height": "162",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA34IbZVDKtN7zoHW7bKOJE_UMSjEVrs60zbHuErvS5ejhyMink2hyMSg"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=1100",
+      "og:site_name": "Explained Visually",
+      "twitter:site": "@setosaio",
+      "og:image": "/ev/eigenvectors-and-eigenvalues/fb-thumb.png",
+      "og:title": "Eigenvectors and Eigenvalues explained visually",
+      "twitter:creator": "vicapow"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "http://setosa.io/ev/eigenvectors-and-eigenvalues/fb-thumb.png"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Eigenvalues of a matrix - MuPAD",
+   "htmlTitle": "\u003cb\u003eEigenvalues\u003c/b\u003e of a matrix - MuPAD",
+   "link": "https://www.mathworks.com/help/symbolic/mupad_ref/linalg-eigenvalues.html",
+   "displayLink": "www.mathworks.com",
+   "snippet": "In MuPAD Notebook only, linalg::eigenvalues(A) returns a list of the eigenvalues \nof the matrix A.",
+   "htmlSnippet": "In MuPAD Notebook only, linalg::\u003cb\u003eeigenvalues\u003c/b\u003e(A) returns a list of the \u003cb\u003eeigenvalues\u003c/b\u003e \u003cbr\u003e\nof the matrix A.",
+   "cacheId": "K3gi0bkJ_foJ",
+   "formattedUrl": "https://www.mathworks.com/help/symbolic/.../linalg-eigenvalues.html",
+   "htmlFormattedUrl": "https://www.mathworks.com/help/symbolic/.../linalg-\u003cb\u003eeigenvalues\u003c/b\u003e.html",
+   "pagemap": {
+    "breadcrumb": [
+     {
+      "url": "Documentation Home",
+      "title": "Documentation Home"
+     },
+     {
+      "url": "MuPAD",
+      "title": "MuPAD"
+     },
+     {
+      "url": "Mathematics",
+      "title": "Mathematics"
+     },
+     {
+      "url": "Linear Algebra",
+      "title": "Linear Algebra"
+     },
+     {
+      "url": "Eigenvalues and Eigenvectors",
+      "title": "Eigenvalues and Eigenvectors"
+     }
+    ],
+    "seealso": [
+     {
+      "url": "linalg::charpoly",
+      "name": "linalg::charpoly"
+     },
+     {
+      "url": "linalg::eigenvectors",
+      "name": "linalg::eigenvectors"
+     },
+     {
+      "url": "numeric::eigenvalues",
+      "name": "numeric::eigenvalues"
+     },
+     {
+      "url": "solve",
+      "name": "solve"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1.0",
+      "chunktype": "refpage",
+      "refentity": "mupadfunction:linalg::eigenvalues",
+      "toctype": "ug",
+      "infotype": "mlref/mupadfunction"
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,549 @@
+{
+ "kind": "customsearch#search",
+ "url": {
+  "type": "application/json",
+  "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+ },
+ "queries": {
+  "request": [
+   {
+    "title": "Google Custom Search - laplace transform",
+    "totalResults": "614000",
+    "searchTerms": "laplace transform",
+    "count": 10,
+    "startIndex": 2,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "007865715089351041060:znf9injp6vi"
+   }
+  ],
+  "previousPage": [
+   {
+    "title": "Google Custom Search - laplace transform",
+    "totalResults": "614000",
+    "searchTerms": "laplace transform",
+    "count": 10,
+    "startIndex": 1,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "007865715089351041060:znf9injp6vi"
+   }
+  ],
+  "nextPage": [
+   {
+    "title": "Google Custom Search - laplace transform",
+    "totalResults": "614000",
+    "searchTerms": "laplace transform",
+    "count": 10,
+    "startIndex": 12,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "007865715089351041060:znf9injp6vi"
+   }
+  ]
+ },
+ "context": {
+  "title": "MySearcher"
+ },
+ "searchInformation": {
+  "searchTime": 0.398423,
+  "formattedSearchTime": "0.40",
+  "totalResults": "614000",
+  "formattedTotalResults": "614,000"
+ },
+ "items": [
+  {
+   "kind": "customsearch#result",
+   "title": "Laplace transform 1 (video) | Khan Academy",
+   "htmlTitle": "\u003cb\u003eLaplace transform\u003c/b\u003e 1 (video) | Khan Academy",
+   "link": "https://www.khanacademy.org/math/differential-equations/laplace-transform/laplace-transform-tutorial/v/laplace-transform-1",
+   "displayLink": "www.khanacademy.org",
+   "snippet": "Help us do more. We'll get right to the point: we're asking you to help support \nKhan Academy. We're a nonprofit that relies on support from people like you. If \neveryone reading this gives $10 monthly, Khan Academy can continue to thrive \nfor years. Please help keep Khan Academy free, for anyone, anywhere forever.",
+   "htmlSnippet": "Help us do more. We&#39;ll get right to the point: we&#39;re asking you to help support \u003cbr\u003e\nKhan Academy. We&#39;re a nonprofit that relies on support from people like you. If \u003cbr\u003e\neveryone reading this gives $10 monthly, Khan Academy can continue to thrive \u003cbr\u003e\nfor years. Please help keep Khan Academy free, for anyone, anywhere forever.",
+   "cacheId": "G4-mSFdzMQ0J",
+   "formattedUrl": "https://www.khanacademy.org/.../laplace-transform/laplace-transform.../ laplace-transform-1",
+   "htmlFormattedUrl": "https://www.khanacademy.org/.../\u003cb\u003elaplace\u003c/b\u003e-\u003cb\u003etransform\u003c/b\u003e/\u003cb\u003elaplace\u003c/b\u003e-\u003cb\u003etransform\u003c/b\u003e.../ \u003cb\u003elaplace\u003c/b\u003e-\u003cb\u003etransform\u003c/b\u003e-1",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "259",
+      "height": "194",
+      "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSwoSR0HuPpKHYIz09tfCxHYRY9GghVaNR2FUs_tPa0PXliRxZ3BIDkgfaz"
+     }
+    ],
+    "document": [
+     {
+      "title": "Laplace transform 1",
+      "description": "Introduction to the Laplace Transform",
+      "author": "Sal Khan",
+      "type": "video",
+      "tag": "laplace"
+     }
+    ],
+    "organization": [
+     {
+      "name": "Laplace transform 1",
+      "description": "Introduction to the Laplace Transform"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0",
+      "sailthru.tags": "laplace-transform, laplace-transform-tutorial, differential-equations, laplace, math, transform",
+      "fb:app_id": "160249463991765",
+      "fb:admins": "100000121497109,1305017,100001572496923",
+      "og:site_name": "Khan Academy",
+      "og:type": "video.other",
+      "og:title": "Laplace transform 1",
+      "og:description": "Introduction to the Laplace Transform",
+      "og:url": "https://www.khanacademy.org/math/differential-equations/laplace-transform/laplace-transform-tutorial/v/laplace-transform-1",
+      "og:image": "http://img.youtube.com/vi/OiNh2DswFt4/0.jpg",
+      "og:video": "http://www.youtube.com/v/OiNh2DswFt4",
+      "og:video:type": "application/x-shockwave-flash",
+      "title": "Laplace transform 1",
+      "video_type": "application/x-shockwave-flash",
+      "twitter:site": "@khanacademy",
+      "twitter:title": "Laplace transform 1",
+      "twitter:description": "Introduction to the Laplace Transform",
+      "twitter:image": "http://img.youtube.com/vi/OiNh2DswFt4/0.jpg",
+      "apple-itunes-app": "app-id=469863705, app-argument=https://www.khanacademy.org/math/differential-equations/laplace-transform/laplace-transform-tutorial/v/laplace-transform-1"
+     }
+    ],
+    "videoobject": [
+     {
+      "name": "Laplace transform 1",
+      "description": "Introduction to the Laplace Transform",
+      "uploaddate": "2011-02-20T16:41:42Z",
+      "thumbnailurl": "https://cdn.kastatic.org/googleusercontent/Pe-IMZXmwsXXj_h6xnwnY4nnw0g33BcvdzfI-ssgykJivJis8gPcdBlgPH_NqLwt7oWQA6x8fBLvk1u43l8us8qg6Q",
+      "transcript": "I'll now introduce you to the concept of the Laplace Transform. And this is truly one of the most useful concepts that you'll learn, not just in differential equations, but really in mathematics...."
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "http://img.youtube.com/vi/OiNh2DswFt4/0.jpg"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Laplace Transforms",
+   "htmlTitle": "\u003cb\u003eLaplace Transforms\u003c/b\u003e",
+   "link": "http://tutorial.math.lamar.edu/Classes/DE/LaplaceIntro.aspx",
+   "displayLink": "tutorial.math.lamar.edu",
+   "snippet": "In this chapter we will be looking at how to use Laplace transforms to solve \ndifferential equations. There are many kinds of transforms out there in the world. \nLaplace transforms and Fourier transforms are probably the main two kinds of \ntransforms that are used. As we will see in later sections we can use Laplace \ntransforms...",
+   "htmlSnippet": "In this chapter we will be looking at how to use \u003cb\u003eLaplace transforms\u003c/b\u003e to solve \u003cbr\u003e\ndifferential equations. There are many kinds of \u003cb\u003etransforms\u003c/b\u003e out there in the world. \u003cbr\u003e\n\u003cb\u003eLaplace transforms\u003c/b\u003e and Fourier \u003cb\u003etransforms\u003c/b\u003e are probably the main two kinds of \u003cbr\u003e\n\u003cb\u003etransforms\u003c/b\u003e that are used. As we will see in later sections we can use \u003cb\u003eLaplace\u003c/b\u003e \u003cbr\u003e\n\u003cb\u003etransforms\u003c/b\u003e&nbsp;...",
+   "cacheId": "NgfqxSC5IpsJ",
+   "formattedUrl": "tutorial.math.lamar.edu/Classes/DE/LaplaceIntro.aspx",
+   "htmlFormattedUrl": "tutorial.math.lamar.edu/Classes/DE/\u003cb\u003eLaplace\u003c/b\u003eIntro.aspx",
+   "pagemap": {
+    "metatags": [
+     {
+      "originator": "Microsoft Word 12",
+      "viewport": "width=device-width, initial-scale=1"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Laplace Transform -- from Wolfram MathWorld",
+   "htmlTitle": "\u003cb\u003eLaplace Transform\u003c/b\u003e -- from Wolfram MathWorld",
+   "link": "http://mathworld.wolfram.com/LaplaceTransform.html",
+   "displayLink": "mathworld.wolfram.com",
+   "snippet": "is implemented in the Wolfram Language as LaplaceTransform[f[t], t, s] and the \ninverse Laplace transform as InverseRadonTransform. The inverse Laplace \ntransform is known as the Bromwich integral, sometimes known as the Fourier-\nMellin integral (see also the related Duhamel's convolution principle). A table of \nseveral...",
+   "htmlSnippet": "is implemented in the Wolfram Language as LaplaceTransform[f[t], t, s] and the \u003cbr\u003e\ninverse \u003cb\u003eLaplace transform\u003c/b\u003e as InverseRadonTransform. The inverse \u003cb\u003eLaplace\u003c/b\u003e \u003cbr\u003e\n\u003cb\u003etransform\u003c/b\u003e is known as the Bromwich integral, sometimes known as the Fourier-\u003cbr\u003e\nMellin integral (see also the related Duhamel&#39;s convolution principle). A table of \u003cbr\u003e\nseveral&nbsp;...",
+   "cacheId": "hbrg8_6eDkYJ",
+   "formattedUrl": "mathworld.wolfram.com/LaplaceTransform.html",
+   "htmlFormattedUrl": "mathworld.wolfram.com/\u003cb\u003eLaplaceTransform\u003c/b\u003e.html",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "151",
+      "height": "335",
+      "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRtVwIcuPm6wugZLVAlCyB66-WQxqZAxyZxoD7uJj7cCj4_J5-8NUo_yI5e"
+     }
+    ],
+    "metatags": [
+     {
+      "dc.title": "Laplace Transform",
+      "dc.creator": "Weisstein, Eric W.",
+      "dc.description": "The Laplace transform is an integral transform perhaps second only to the Fourier transform in its utility in solving physical problems. The Laplace transform is particularly useful in solving linear ordinary differential equations such as those arising in the analysis of electronic circuits. The (unilateral) Laplace transform L (not to be confused with the Lie derivative, also commonly denoted L) is defined by  L_t[f(t)](s)=int_0^inftyf(t)e^(-st)dt,  (1)   where f(t) is defined for t\u003e=0...",
+      "dc.date.modified": "2002-03-31",
+      "dc.subject": "Mathematics:Calculus and Analysis:Integral Transforms:General Integral Transforms",
+      "dc.rights": "Copyright 1999-2017 Wolfram Research, Inc.  See http://mathworld.wolfram.com/about/terms.html for a full terms of use statement.",
+      "dc.format": "text/html",
+      "dc.identifier": "http://mathworld.wolfram.com/LaplaceTransform.html",
+      "dc.language": "en",
+      "dc.publisher": "Wolfram Research, Inc.",
+      "dc.relation.ispartof": "http://mathworld.wolfram.com/",
+      "dc.type": "Text",
+      "last-modified": "2007-10-04",
+      "msapplication-config": "/browserconfig.xml"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "http://www.wolframcdn.com/side-images/integral-calculator-mw.gif"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Laplace Transform Calculator - Symbolab",
+   "htmlTitle": "\u003cb\u003eLaplace Transform\u003c/b\u003e Calculator - Symbolab",
+   "link": "https://www.symbolab.com/solver/laplace-calculator",
+   "displayLink": "www.symbolab.com",
+   "snippet": "Free Laplace Transform calculator - Find the Laplace and inverse Laplace \ntransforms of functions step-by-step.",
+   "htmlSnippet": "Free \u003cb\u003eLaplace Transform\u003c/b\u003e calculator - Find the Laplace and inverse \u003cb\u003eLaplace\u003c/b\u003e \u003cbr\u003e\n\u003cb\u003etransforms\u003c/b\u003e of functions step-by-step.",
+   "cacheId": "MYBt26P4SQMJ",
+   "formattedUrl": "https://www.symbolab.com/solver/laplace-calculator",
+   "htmlFormattedUrl": "https://www.symbolab.com/solver/\u003cb\u003elaplace\u003c/b\u003e-calculator",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "224",
+      "height": "225",
+      "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTSUcxySnY0T3ZttDdEEzaVK1FHnnLHRxhghIW2kOKQogWP1dBnml6Hkv_3"
+     }
+    ],
+    "breadcrumb": [
+     {
+      "url": "Step-by-Step",
+      "title": "Step-by-Step"
+     },
+     {
+      "url": "Calculus",
+      "title": "Calculus"
+     },
+     {
+      "url": "Laplace Transform",
+      "title": "Laplace Transform"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1.0",
+      "eq:page": "laplace-calculator",
+      "og:title": "Laplace Transform Calculator - Symbolab",
+      "og:description": "Free Laplace Transform calculator - Find the Laplace and inverse Laplace transforms of functions step-by-step",
+      "og:image": "https://www.symbolab.com/public/img/logo_big.png"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://www.symbolab.com/public/img/logo_big.png"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Laplace Transform - Calculating the Laplace Transform - YouTube",
+   "htmlTitle": "\u003cb\u003eLaplace Transform\u003c/b\u003e - Calculating the \u003cb\u003eLaplace Transform\u003c/b\u003e - YouTube",
+   "link": "https://www.youtube.com/watch?v=Lmj3s4S62fQ",
+   "displayLink": "www.youtube.com",
+   "snippet": "Mar 16, 2011 ... Laplace Transform - Calculating the Laplace Transform. In this video, I give the \ndefinition of the Laplace transform and use it to find the Laplace transform...",
+   "htmlSnippet": "Mar 16, 2011 \u003cb\u003e...\u003c/b\u003e \u003cb\u003eLaplace Transform\u003c/b\u003e - Calculating the \u003cb\u003eLaplace Transform\u003c/b\u003e. In this video, I give the \u003cbr\u003e\ndefinition of the \u003cb\u003eLaplace transform\u003c/b\u003e and use it to find the \u003cb\u003eLaplace transform\u003c/b\u003e...",
+   "cacheId": "ImAa3Y5PLvgJ",
+   "formattedUrl": "https://www.youtube.com/watch?v=Lmj3s4S62fQ",
+   "htmlFormattedUrl": "https://www.youtube.com/watch?v=Lmj3s4S62fQ",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "259",
+      "height": "194",
+      "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQE6_4ns00jD8Hnyd7gsXhBIjAsw3_rcuS5nVYF_0CXWzZCOGo0hp3hlKoy"
+     }
+    ],
+    "imageobject": [
+     {
+      "url": "https://i.ytimg.com/vi/Lmj3s4S62fQ/maxresdefault.jpg",
+      "width": "1280",
+      "height": "720"
+     }
+    ],
+    "person": [
+     {
+      "url": "http://www.youtube.com/user/patrickJMT"
+     },
+     {
+      "url": "https://plus.google.com/111370240590186096109"
+     }
+    ],
+    "metatags": [
+     {
+      "title": "Laplace Transform - Calculating the Laplace Transform",
+      "theme-color": "#ff0000",
+      "og:site_name": "YouTube",
+      "og:url": "https://www.youtube.com/watch?v=Lmj3s4S62fQ",
+      "og:title": "Laplace Transform - Calculating the Laplace Transform",
+      "og:image": "https://i.ytimg.com/vi/Lmj3s4S62fQ/maxresdefault.jpg",
+      "og:description": "Laplace Transform - Calculating the Laplace Transform. In this video, I give the definition of the Laplace transform and use it to find the Laplace transform...",
+      "al:ios:app_store_id": "544007664",
+      "al:ios:app_name": "YouTube",
+      "al:ios:url": "vnd.youtube://www.youtube.com/watch?v=Lmj3s4S62fQ&feature=applinks",
+      "al:android:url": "vnd.youtube://www.youtube.com/watch?v=Lmj3s4S62fQ&feature=applinks",
+      "al:android:app_name": "YouTube",
+      "al:android:package": "com.google.android.youtube",
+      "al:web:url": "https://www.youtube.com/watch?v=Lmj3s4S62fQ&feature=applinks",
+      "og:type": "video",
+      "og:video:url": "https://www.youtube.com/embed/Lmj3s4S62fQ",
+      "og:video:secure_url": "https://www.youtube.com/embed/Lmj3s4S62fQ",
+      "og:video:type": "text/html",
+      "og:video:width": "960",
+      "og:video:height": "720",
+      "og:video:tag": "math",
+      "fb:app_id": "87741124305",
+      "twitter:card": "player",
+      "twitter:site": "@youtube",
+      "twitter:url": "https://www.youtube.com/watch?v=Lmj3s4S62fQ",
+      "twitter:title": "Laplace Transform - Calculating the Laplace Transform",
+      "twitter:description": "Laplace Transform - Calculating the Laplace Transform. In this video, I give the definition of the Laplace transform and use it to find the Laplace transform...",
+      "twitter:image": "https://i.ytimg.com/vi/Lmj3s4S62fQ/maxresdefault.jpg",
+      "twitter:app:name:iphone": "YouTube",
+      "twitter:app:id:iphone": "544007664",
+      "twitter:app:name:ipad": "YouTube",
+      "twitter:app:id:ipad": "544007664",
+      "twitter:app:url:iphone": "vnd.youtube://www.youtube.com/watch?v=Lmj3s4S62fQ&feature=applinks",
+      "twitter:app:url:ipad": "vnd.youtube://www.youtube.com/watch?v=Lmj3s4S62fQ&feature=applinks",
+      "twitter:app:name:googleplay": "YouTube",
+      "twitter:app:id:googleplay": "com.google.android.youtube"
+     }
+    ],
+    "videoobject": [
+     {
+      "url": "https://www.youtube.com/watch?v=Lmj3s4S62fQ",
+      "name": "Laplace Transform - Calculating the Laplace Transform",
+      "description": "Laplace Transform - Calculating the Laplace Transform. In this video, I give the definition of the Laplace transform and use it to find the Laplace transform...",
+      "paid": "False",
+      "channelid": "UCFe6jenM1Bc54qtBsIJGRZQ",
+      "videoid": "Lmj3s4S62fQ",
+      "duration": "PT13M5S",
+      "unlisted": "False",
+      "thumbnailurl": "https://i.ytimg.com/vi/Lmj3s4S62fQ/maxresdefault.jpg",
+      "embedurl": "https://www.youtube.com/embed/Lmj3s4S62fQ",
+      "playertype": "HTML5 Flash",
+      "width": "960",
+      "height": "720",
+      "isfamilyfriendly": "True",
+      "regionsallowed": "AD,AE,AF,AG,AI,AL,AM,AO,AQ,AR,AS,AT,AU,AW,AX,AZ,BA,BB,BD,BE,BF,BG,BH,BI,BJ,BL,BM,BN,BO,BQ,BR,BS,BT,BV,BW,BY,BZ,CA,CC,CD,CF,CG,CH,CI,CK,CL,CM,CN,CO,CR,CU,CV,CW,CX,CY,CZ,DE,DJ,DK,DM,DO,DZ,EC,EE,EG,EH...",
+      "interactioncount": "217718",
+      "datepublished": "2011-03-16",
+      "genre": "Education"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://i.ytimg.com/vi/Lmj3s4S62fQ/maxresdefault.jpg"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "The Laplace Transform",
+   "htmlTitle": "The \u003cb\u003eLaplace Transform\u003c/b\u003e",
+   "link": "https://www.math.psu.edu/tseng/class/Math251/Notes-LT1.pdf",
+   "displayLink": "www.math.psu.edu",
+   "snippet": "C-1 - 1. The Laplace Transform. Definition and properties of Laplace Transform, \npiecewise continuous functions, the Laplace Transform method of solving initial \nvalue problems. The method of Laplace transforms is a system that relies on \nalgebra (rather than calculus-based methods) to solve linear differential \nequations.",
+   "htmlSnippet": "C-1 - 1. The \u003cb\u003eLaplace Transform\u003c/b\u003e. Definition and properties of \u003cb\u003eLaplace Transform\u003c/b\u003e, \u003cbr\u003e\npiecewise continuous functions, the \u003cb\u003eLaplace Transform\u003c/b\u003e method of solving initial \u003cbr\u003e\nvalue problems. The method of \u003cb\u003eLaplace transforms\u003c/b\u003e is a system that relies on \u003cbr\u003e\nalgebra (rather than calculus-based methods) to solve linear differential \u003cbr\u003e\nequations.",
+   "cacheId": "SYcKvxnLg6AJ",
+   "mime": "application/pdf",
+   "fileFormat": "PDF/Adobe Acrobat",
+   "formattedUrl": "https://www.math.psu.edu/tseng/class/Math251/Notes-LT1.pdf",
+   "htmlFormattedUrl": "https://www.math.psu.edu/tseng/class/Math251/Notes-LT1.pdf",
+   "pagemap": {
+    "metatags": [
+     {
+      "producer": "Nitro PDF PrimoPDF",
+      "creationdate": "D:20170607034305+04'00'",
+      "moddate": "D:20170607034305+04'00'",
+      "title": "Microsoft Word - Notes-Laplace Transform pt1",
+      "creator": "PrimoPDF http://www.primopdf.com",
+      "author": "Zach"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Inverse Laplace Transform Calculator - Symbolab",
+   "htmlTitle": "Inverse \u003cb\u003eLaplace Transform\u003c/b\u003e Calculator - Symbolab",
+   "link": "https://www.symbolab.com/solver/inverse-laplace-calculator",
+   "displayLink": "www.symbolab.com",
+   "snippet": "Free Inverse Laplace Transform calculator - Find the inverse Laplace transforms \nof functions step-by-step.",
+   "htmlSnippet": "Free Inverse \u003cb\u003eLaplace Transform\u003c/b\u003e calculator - Find the inverse \u003cb\u003eLaplace transforms\u003c/b\u003e \u003cbr\u003e\nof functions step-by-step.",
+   "cacheId": "V8yTOf8g9I4J",
+   "formattedUrl": "https://www.symbolab.com/solver/inverse-laplace-calculator",
+   "htmlFormattedUrl": "https://www.symbolab.com/solver/inverse-\u003cb\u003elaplace\u003c/b\u003e-calculator",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "224",
+      "height": "225",
+      "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTSUcxySnY0T3ZttDdEEzaVK1FHnnLHRxhghIW2kOKQogWP1dBnml6Hkv_3"
+     }
+    ],
+    "breadcrumb": [
+     {
+      "url": "Step-by-Step",
+      "title": "Step-by-Step"
+     },
+     {
+      "url": "Calculus",
+      "title": "Calculus"
+     },
+     {
+      "url": "Laplace Transform",
+      "title": "Laplace Transform"
+     },
+     {
+      "url": "Inverse",
+      "title": "Inverse"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1.0",
+      "eq:page": "inverse-laplace-calculator",
+      "og:title": "Inverse Laplace Transform Calculator - Symbolab",
+      "og:description": "Free Inverse Laplace Transform calculator - Find the inverse Laplace transforms of functions step-by-step",
+      "og:image": "https://www.symbolab.com/public/img/logo_big.png"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://www.symbolab.com/public/img/logo_big.png"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Laplace Transform: Basics | Unit III: Fourier Series and Laplace ...",
+   "htmlTitle": "\u003cb\u003eLaplace Transform\u003c/b\u003e: Basics | Unit III: Fourier Series and Laplace ...",
+   "link": "https://ocw.mit.edu/courses/mathematics/18-03sc-differential-equations-fall-2011/unit-iii-fourier-series-and-laplace-transform/laplace-transform-basics/",
+   "displayLink": "ocw.mit.edu",
+   "snippet": "This section provides materials for a session on the conceptual and beginning \ncomputational aspects of the Laplace transform. Materials include course notes, \nlecture video clips, practice problems with solutions, a problem solving video, \nand problem sets with solutions.",
+   "htmlSnippet": "This section provides materials for a session on the conceptual and beginning \u003cbr\u003e\ncomputational aspects of the \u003cb\u003eLaplace transform\u003c/b\u003e. Materials include course notes, \u003cbr\u003e\nlecture video clips, practice problems with solutions, a problem solving video, \u003cbr\u003e\nand problem sets with solutions.",
+   "cacheId": "i-97qAqA3uEJ",
+   "formattedUrl": "https://ocw.mit.edu/...laplace-transform/laplace-transform-basics/",
+   "htmlFormattedUrl": "https://ocw.mit.edu/...\u003cb\u003elaplace\u003c/b\u003e-\u003cb\u003etransform\u003c/b\u003e/\u003cb\u003elaplace\u003c/b\u003e-\u003cb\u003etransform\u003c/b\u003e-basics/",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "100",
+      "height": "100",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXieevbNUgqQki2E1qWEksBk7kPxmO1P9cjzKqFQH34p9440Fb_aV6jg"
+     }
+    ],
+    "collegeoruniversity": [
+     {
+      "name": "MIT OpenCourseWare",
+      "description": "MIT OpenCourseWare makes the materials used in the teaching of almost all of MIT's subjects available on the Web, free of charge. With more than 2,400 courses available, OCW is delivering on..."
+     }
+    ],
+    "metatags": [
+     {
+      "format-detection": "telephone=no",
+      "wt.cg_n": "18-03sc-differential-equations-fall-2011",
+      "wt.cg_s": "Laplace Transform: Basics",
+      "author": "Mattuck, Arthur",
+      "search_display": "18.03SC Differential Equations | Laplace Transform: Basics"
+     }
+    ],
+    "webpage": [
+     {
+      "name": "Laplace Transform: Basics",
+      "userightsurl": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://ocw.mit.edu/courses/mathematics/18-03sc-differential-equations-fall-2011/unit-iii-fourier-series-and-laplace-transform/laplace-transform-basics/s27.jpg"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Laplace Transform Calculator - Symbolab",
+   "htmlTitle": "\u003cb\u003eLaplace Transform\u003c/b\u003e Calculator - Symbolab",
+   "link": "https://www.symbolab.com/solver/laplace-transform-calculator",
+   "displayLink": "www.symbolab.com",
+   "snippet": "Free Laplace Transform calculator - Find the Laplace transforms of functions step\n-by-step.",
+   "htmlSnippet": "Free \u003cb\u003eLaplace Transform\u003c/b\u003e calculator - Find the \u003cb\u003eLaplace transforms\u003c/b\u003e of functions step\u003cbr\u003e\n-by-step.",
+   "cacheId": "dmCtdCrE0HUJ",
+   "formattedUrl": "https://www.symbolab.com/solver/laplace-transform-calculator",
+   "htmlFormattedUrl": "https://www.symbolab.com/solver/\u003cb\u003elaplace\u003c/b\u003e-\u003cb\u003etransform\u003c/b\u003e-calculator",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "224",
+      "height": "225",
+      "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTSUcxySnY0T3ZttDdEEzaVK1FHnnLHRxhghIW2kOKQogWP1dBnml6Hkv_3"
+     }
+    ],
+    "breadcrumb": [
+     {
+      "url": "Step-by-Step",
+      "title": "Step-by-Step"
+     },
+     {
+      "url": "Calculus",
+      "title": "Calculus"
+     },
+     {
+      "url": "Laplace Transform",
+      "title": "Laplace Transform"
+     },
+     {
+      "url": "Transform",
+      "title": "Transform"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1.0",
+      "eq:page": "laplace-transform-calculator",
+      "og:title": "Laplace Transform Calculator - Symbolab",
+      "og:description": "Free Laplace Transform calculator - Find the Laplace transforms of functions step-by-step",
+      "og:image": "https://www.symbolab.com/public/img/logo_big.png"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "https://www.symbolab.com/public/img/logo_big.png"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Laplace transform",
+   "htmlTitle": "\u003cb\u003eLaplace transform\u003c/b\u003e",
+   "link": "http://rapidtables.com/math/calculus/laplace_transform.htm",
+   "displayLink": "rapidtables.com",
+   "snippet": "Laplace transform function, table, propertiesand examples. The Laplace \ntransform converts a time domain function to s-domain function by integration \nfrom zero to infinity of the time domain function, multiplied by e-st.",
+   "htmlSnippet": "\u003cb\u003eLaplace transform\u003c/b\u003e function, table, propertiesand examples. The \u003cb\u003eLaplace\u003c/b\u003e \u003cbr\u003e\n\u003cb\u003etransform\u003c/b\u003e converts a time domain function to s-domain function by integration \u003cbr\u003e\nfrom zero to infinity of the time domain function, multiplied by e-st.",
+   "cacheId": "M1cbRgYRkQwJ",
+   "formattedUrl": "rapidtables.com/math/calculus/laplace_transform.htm",
+   "htmlFormattedUrl": "rapidtables.com/math/calculus/\u003cb\u003elaplace\u003c/b\u003e_\u003cb\u003etransform\u003c/b\u003e.htm",
+   "pagemap": {
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1",
+      "msapplication-config": "/lib/favicon/browserconfig.xml",
+      "theme-color": "#ffffff",
+      "format-detection": "telephone=no"
+     }
+    ]
+   }
+  }
+ ]
+}

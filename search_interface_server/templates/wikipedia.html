@@ -1,0 +1,128 @@
+{% extends "base.html" %}
+{% block content %}
+
+
+<style>
+h1 {
+    background-color: none;
+}
+
+#wrapper {
+    background-color: lightgray;
+}
+
+</style>
+    <h1>Search Engine for Learning</h1>
+    <br>
+    <!-- Search interface -->
+    <form action="" enctype=multipart/form-data >
+        <div class = "form-group">
+            <label class = "control-label">Search Query: </label>
+            <input id = "wikipedia_search_input" type="text" name="q">
+        </div>
+        <br>
+        <div class = "form-group text-center">
+            <input type = "submit" value="Search" class = "btn btn-success" id = "wikipedia_search_button">
+        </div>
+    </form>
+
+    <!-- Search results -->
+    {% if search %}
+        {% if docs|length == 0 %}
+            <p class = "no_search_results"> No search results </p>
+        {% else %}
+            <h2>Google baseline search results:</h2>
+            <div>
+            {% for doc in docs %}
+                <div class="doc"><a href={{doc}}>{{ doc }}</a></div>
+            {% endfor %}
+            </div>
+            <form action="/" method="POST" class="Recommend_form">
+                <div id="Recommend_id" class = "form-group text-center">
+                    <input type = "submit" value="Recommend" class = "btn btn-success" id = "Recommend_button">
+                </div>
+            </form>
+        {% endif %}
+    {% endif %}
+
+<!--     {% if recommend %}
+            {% if docs|length == 0 %}
+                <p class = "no_search_results"> No search results </p>
+            {% else %}
+                <h2>Google baseline search results:</h2>
+                <div>
+                {% for doc in docs %}
+                    <div class="doc"><a href={{doc}}>{{ doc }}</a></div>
+                {% endfor %}
+                </div>
+                <form action="/" method="POST" class="Recommend_form">
+                    <div id="Recommend_id" class = "form-group text-center">
+                        <input type = "submit" value="Recommend" class = "btn btn-success" id = "Recommend_button">
+                    </div>
+                </form>
+                {% for ret in results %}
+                    <div class="doc"><a href={{ret}}>{{ ret }}</a></div>
+                {% endfor %}
+            {% endif %}
+    {% endif %} -->
+ 
+<div class="Recommend_result" id ="rec" ></div>
+
+
+
+<h1>SI 699 project</h1>
+<h2>Hang Ren</h2>
+<script type="text/javascript">
+    $('.Recommend_form').on('submit', function(e) {
+        e.preventDefault();
+        var data = []
+        var judge = 1
+        $('.doc').each(function() {
+            data.push($(this).find('a').html());
+        });
+        $.ajax({
+            type: "POST",
+            url: '/',
+            dataType: 'json',
+            contentType: 'application/json;charset=UTF-8',
+            data: JSON.stringify({docs: data}),
+            success: function(data) {
+                for (var i = 0; i < data.results.length; i++) {
+                    $('.Recommend_result').append(' <li> <a href='+ data.results[i] +'>'+ data.results[i] +'</a></li> <div id="wrapper">'+ data.reason_results[i] +'</div>');
+                }     
+                var i=0
+                var p=0
+                $('.Recommend_result').append('<button id="yes">Yes</button> <button id="no">No</button>');
+                $('.Recommend_result').append(' <div > Are you familiar with the concept of '+data.reason_results[i][p]+'?</div> ');
+                 $("#yes").click(function () {
+                    p=p+1
+                    if(p<data.reason_results[i].length){
+                        $('#rec div:last').remove();
+                        $('.Recommend_result').append('<div > Are you familiar with the concept of '+data.reason_results[i][p]+'?</div>');
+                    }else{
+                        p=0
+                        i=i+1
+                        if(i==4){
+                            $('.Recommend_result').append('<div>we recommend you start to from here:<a href='+ data.results[4] +'>'+ data.results[4] +'</a></div>');
+                        }else{
+                            $('#rec div:last').remove();
+                            $('.Recommend_result').append('<div id="show"> Are you familiar with the concept of '+data.reason_results[i][p]+'?</div>');
+                        }                   
+                    }
+                //      continue;
+                });
+                $("#no").click(function () {
+                        $('.Recommend_result').append('<div>we recommend you to start from here:<a href='+ data.results[i] +'>'+ data.results[i] +'</a></div>');
+
+                });
+                
+            }
+        })
+    });
+
+    
+</script> 
+
+
+
+{% endblock %}
